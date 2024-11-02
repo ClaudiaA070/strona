@@ -11,6 +11,7 @@ body, html {
     font-family: 'Roboto', sans-serif;
 }
 
+
 /* Tło na pełnym ekranie */
 .hero {
     background-image: url('background.jpg'); 
@@ -62,20 +63,7 @@ body, html {
     box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
 }
 
-.sidebar .logo {
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-.sidebar .logo img {
-    width: 80px;
-    height: auto;
-}
-
-.sidebar .logo h1 {
-    font-size: 1.5rem;
-    color: #333;
-    margin-top: 10px;
+   margin-top: 10px;
 }
 
 .sidebar ul {
@@ -104,13 +92,3 @@ body, html {
     color: #0a74da;
 }
 
-
-.sidebar .logo img {
-    max-width: 80px;
-}
-
-.sidebar .logo h1 {
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: #0a74da;
-}
