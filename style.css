@@ -1,11 +1,11 @@
-/* Resetowanie stylów */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Styl dla całego ciała */
+
 body, html {
     height: 100%;
     font-family: 'Roboto', sans-serif;
@@ -13,7 +13,7 @@ body, html {
 
 /* Tło na pełnym ekranie */
 .hero {
-    background-image: url('background.jpg'); /* Zmień na ścieżkę do swojego zdjęcia */
+    background-image: url('background.jpg'); 
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -23,12 +23,12 @@ body, html {
     justify-content: center;
     text-align: center;
     color: whitesmoke;
-    padding-left: 250px; /* Przestrzeń na pasek nawigacyjny */
+    padding-left: 250px; 
     
 }
 
 .hero h2, .hero p {
-    background-color: rgba(0, 0, 0, 0.5); /* Czarny półprzezroczysty */
+    background-color: rgba(0, 0, 0, 0.5); 
     padding: 10px 20px;
     border-radius: 5px;
     font-family: 'Roboto', sans-serif;
@@ -104,7 +104,7 @@ body, html {
     color: #0a74da;
 }
 
-/* Styl logo w nawigacji */
+
 .sidebar .logo img {
     max-width: 80px;
 }
