@@ -90,3 +90,13 @@ body, html {
     color: #0a74da;
 }
 
+.content {
+    margin-left: 260px; /* Dostosuj do szerokości nawigacji */
+    padding: 20px;
+}
+
+/* Styl nagłówków */
+.content h1 {
+    font-size: 2rem;
+    color: #333;
+}
